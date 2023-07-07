@@ -25,3 +25,4 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 - Run the project with Maven on the left -> Plugins -> spring-boot:run
 - Before to run stop  the previous execution and clean the cookies with  Maven on the left -> Plugins ->  clean:clean
+<br>![browser result is : ](https://github.com/BeatrizBravo/2SpirngBoot-Controllador/blob/introControllers/controller1.PNG)
