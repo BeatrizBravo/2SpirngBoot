@@ -6,18 +6,21 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 - Check the introduction in [introduction in](https://github.com/BeatrizBravo/introSpring) to set up your project.
   
--  Create a folder called controller inside of "introSpring/src/test/java/com/spring/
+-  Create a folder called controller inside of "introSpring/src/main/java/com/spring/
    /intro/ file in the next folder:
 
 ```
-├── Java
-    ├── com.spring.intro
-    ├── resources
-        ├── Static
-        ├── templates
-        
-        
- 
+├── src
+   ├── main
+      ├── Java
+             ├── com.spring.intro
+               ├── controller
+      ├── resources
+              ├── Static
+              ├── templates
+     
+   ├── test              
+       
 ```
 
 
