@@ -4,10 +4,21 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 # Set up
 
-- Check the introduction in [introduction in](https://github.com/BeatrizBravo/introSpring) to set up your project.
+[//]: # (- Check the introduction in [introduction in]&#40;https://github.com/BeatrizBravo/introSpring&#41; to set up your project.)
   
--  Create a folder called controller inside of "introSpring/src/main/java/com/spring/
-   /intro/ file in the next folder:
+-  Create a folder called models inside of "introSpring/src/main/java/com/spring/
+   /intro/.
+
+
+###### Models
+
+
+> The **Model** contains only the pure application data, 
+> it contains no logic describing how to present the data to a user. 
+> (Its just a data that is shipped across the application 
+> like for example from back-end server view and from front-end view to the database.
+
+[^1]: MVC Design Pattern - GeeksforGeeks. (s.f.). GeeksforGeeks. https://www.geeksforgeeks.org/mvc-design-pattern/.
 
 ```
 ├── src
@@ -15,6 +26,8 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
       ├── Java
              ├── com.spring.intro
                ├── controller
+               ├── models
+                    ├── User
       ├── resources
               ├── Static
               ├── templates
@@ -25,3 +38,4 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 - Run the project with Maven on the left -> Plugins -> spring-boot:run
 - Before to run stop  the previous execution and clean the cookies with  Maven on the left -> Plugins ->  clean:clean
+  <br>![enpoint "/user"](images/controller2.PNG)
