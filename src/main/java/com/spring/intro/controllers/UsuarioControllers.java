@@ -28,7 +28,7 @@ public class UsuarioControllers {
         user.setName("a");
         user.setLastName("a");
         user.setEmail("bb@fly.com");
-        user.setPhone("123");
+        user.setPhone("1234");
         return user;
     }
 
