@@ -1,7 +1,16 @@
 package com.spring.intro.models;
 
 public class User {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     // todas las variables que puede tener el usuario con su getter y setter
+    private int id;
     private String name;
     private String lastName;
     private String email;

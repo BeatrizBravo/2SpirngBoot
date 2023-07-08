@@ -38,4 +38,7 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 - Run the project with Maven on the left -> Plugins -> spring-boot:run
 - Before to run stop  the previous execution and clean the cookies with  Maven on the left -> Plugins ->  clean:clean
-  <br>![enpoint "/user"](images/controller2.PNG)
+- 
+- 
+- Created a dinamic id to get a specific user
+  <br>![enpoint "/user"](images/controller3.PNG)
