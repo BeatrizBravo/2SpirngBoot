@@ -4,21 +4,11 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
 
 # Set up
 
-[//]: # (- Check the introduction in [introduction in]&#40;https://github.com/BeatrizBravo/introSpring&#41; to set up your project.)
-  
--  Create a folder called models inside of "introSpring/src/main/java/com/spring/
-   /intro/.
+- [introduction to SpringBoot](https://github.com/BeatrizBravo/introSpring) to set up your project.
 
 
-###### Models
+-  Tree:
 
-
-> The **Model** contains only the pure application data, 
-> it contains no logic describing how to present the data to a user. 
-> (Its just a data that is shipped across the application 
-> like for example from back-end server view and from front-end view to the database.
-
-[^1]: MVC Design Pattern - GeeksforGeeks. (s.f.). GeeksforGeeks. https://www.geeksforgeeks.org/mvc-design-pattern/.
 
 ```
 ├── src
@@ -27,18 +17,52 @@ The goal of this project is to learn how to use Spring Boot, a Java framework th
              ├── com.spring.intro
                ├── controller
                ├── models
-                    ├── User
       ├── resources
               ├── Static
+                    ├── files             
               ├── templates
      
    ├── test              
        
 ```
 
+
+##### Template in Static 
+  Adding the front-end to the project.
+  <br> For this project you going to download from  [Startbootstrap](https://startbootstrap.com/theme/sb-admin-2) 
+  template to later create the backend and give interactivity to the html.
+<br>
+
+- move to "introSpring/src/main/resources/static and **copy & paste** all the content inside of the folder you have download.
+
+```
+├── Statid
+   ├── css
+   ├── img              
+   ├── js              
+   ├── scss              
+   ├── vendor              
+   ├── 404.html              
+   ├── blank.html              
+   ├── buttons.html              
+   ├── cards.html              
+   ├── charts.html              
+   ├── charts.html              
+   ├── more files              
+       
+```
+- Refresh the IDE by right clicking inside project and selecting "Refresh from Disk" or else closing and reopening the IDE.
+-   <br>![Refresh from Disk](images/viewFrontEnd.PNG)
+
 - Run the project with Maven on the left -> Plugins -> spring-boot:run
 - Before to run stop  the previous execution and clean the cookies with  Maven on the left -> Plugins ->  clean:clean
-- 
-- 
+-
+-
 - Created a dinamic id to get a specific user
-  <br>![enpoint "/user"](images/controller3.PNG)
+  <br>![Front-end View: ](images/reloadFromDisk.PNG)
+
+## TODO later:
+
+- We are going to work on that template and we are going to put together a complete system.
+- On the one hand we have the static folder where we put all the html content and on the other we will create MVC that will return information.
+- The front-end will REQUEST calling the backend, returning the resources we want to work with, such as RESPONSE of a list of users.
